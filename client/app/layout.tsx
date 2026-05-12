@@ -3,7 +3,7 @@ import './globals.css';
 import { Providers } from './providers';
 
 export const metadata: Metadata = {
-  title: '🎂 Candelle',
+  title: 'Candelle',
   description: 'Create a birthday wish space for your loved ones!',
 };
 
