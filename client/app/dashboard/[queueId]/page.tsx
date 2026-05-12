@@ -572,12 +572,32 @@ export default function DashboardPage({
                 <p
                     style={{
                         fontSize: '0.68rem',
-                        color: 'var(--pink-300)',
+                        color: 'var(--text-muted)',
                         fontStyle: 'italic',
-                        opacity: 0.88,
+                        opacity: 0.92,
                     }}
                 >
-                    Designed by Protyusha ✦
+                    Designed by{' '}
+
+                    <a
+                        href="https://linkedin.com/in/protyusha-mahalder"
+                        target="_blank"
+                        rel="noreferrer"
+                        style={{
+                            color: 'var(--pink-400)',
+                            textDecoration: 'none',
+                            fontWeight: 600,
+                            transition: '0.25s',
+                        }}
+                        onMouseEnter={(e) => {
+                            e.currentTarget.style.opacity = '0.75';
+                        }}
+                        onMouseLeave={(e) => {
+                            e.currentTarget.style.opacity = '1';
+                        }}
+                    >
+                        Protyusha ✦
+                    </a>
                 </p>
             </footer>
 
