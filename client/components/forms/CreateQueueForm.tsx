@@ -72,7 +72,7 @@ export default function CreateQueueForm({ onCreated }: Props) {
             </Field>
 
             {/* Birthdate — NextUI DatePicker, re-skinned */}
-            <Field label="Birthdate">
+            <Field label="Birthdate (This Year)">
                 <div style={{
                     background: 'rgba(255,255,255,0.70)',
                     border: '1.5px solid rgba(255,255,255,0.90)',
